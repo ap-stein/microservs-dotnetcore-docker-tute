@@ -1,0 +1,11 @@
+
+version: '3.4'
+
+services:
+  helloworld:
+    image: helloworld
+    build:
+      context: .
+      dockerfile: HelloWorld/Dockerfile
+    volumes:
+      - ~/.vsdbg:/remote_debugger:rw

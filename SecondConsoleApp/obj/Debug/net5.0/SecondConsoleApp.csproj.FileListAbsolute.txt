@@ -1,0 +1,16 @@
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.exe
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.deps.json
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.runtimeconfig.json
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.runtimeconfig.dev.json
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.dll
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\bin\Debug\net5.0\ref\SecondConsoleApp.dll
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\bin\Debug\net5.0\SecondConsoleApp.pdb
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.csprojAssemblyReference.cache
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.AssemblyInfoInputs.cache
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.AssemblyInfo.cs
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.csproj.CoreCompileInputs.cache
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.dll
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\ref\SecondConsoleApp.dll
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.pdb
+G:\computer\dotNet\tutorials\MicroservicesWithDotNetCore\SecondConsoleApp\obj\Debug\net5.0\SecondConsoleApp.genruntimeconfig.cache
