@@ -25,17 +25,19 @@ namespace BandwithTester
 
         private List<Server> GetTestServers()
         {
+            _logger.LogInformation("Get Test Servers");
             var servers = _settings.Servers.OrderBy(server=>server.Distance).Take(10).ToList();
             foreach(var server in servers)
             {
                 server.Latency = _client.TestServerLatency(server);
             }
 
-            return servers.OrderBy(server=>server.Latency).Take(3).ToList();
+            return servers.OrderBy(server=>server.Latency).Take(2).ToList();
         }
 
         private double GetAverageDownloadSpeed(List<Server> servers)
         {
+            _logger.LogInformation("Testing Download Speed");
             List<double> downloadSpeeds = new List<double>();
 
             foreach(var server in servers)
@@ -48,6 +50,7 @@ namespace BandwithTester
 
         private double GetAverageUploadSpeed(List<Server> servers)
         {
+            _logger.LogInformation("Testing Upload Speed");
             List<double> uploadSpeeds = new List<double>();
 
             foreach(var server in servers)
@@ -62,16 +65,20 @@ namespace BandwithTester
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                _logger.LogInformation("Testing bandwidth at: {time}", DateTimeOffset.Now);
+                //_logger.LogInformation("Testing bandwidth at: {time}", DateTimeOffset.Now);
                 //_logger.LogWarning("This is a warning.");
 
                 var servers = GetTestServers();
-                double averageDownloadSpeed = GetAverageDownloadSpeed(servers);
-                double averageUploadSpeed = GetAverageUploadSpeed(servers);
+                double averageDownloadSpeed = Math.Round(GetAverageDownloadSpeed(servers), 0) / 1000;
+                double averageUploadSpeed = Math.Round(GetAverageUploadSpeed(servers), 0) / 1000;
 
-                _logger.LogInformation("Bandwidth at {time}: Download:{download}, Upload:{upload} ", DateTimeOffset.Now, averageDownloadSpeed, averageUploadSpeed);
+                _logger.LogInformation("{LogMessage} at {time} MBit/s: Download:{download} MBit/s, Upload:{upload} "
+                , "BandwidthTest"
+                , DateTimeOffset.Now
+                , averageDownloadSpeed
+                , averageUploadSpeed);
 
-                await Task.Delay(20000, stoppingToken);
+                await Task.Delay(60000, stoppingToken);
             }
         }
     }

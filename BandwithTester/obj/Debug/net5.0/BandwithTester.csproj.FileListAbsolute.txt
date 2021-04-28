@@ -53,11 +53,12 @@ G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithT
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\obj\Debug\net5.0\ref\BandwithTester.dll
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\obj\Debug\net5.0\BandwithTester.pdb
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\obj\Debug\net5.0\BandwithTester.genruntimeconfig.cache
-G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Humanizer.dll
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
 G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
-G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+G:\computer\dotNet\tutorials\microservices\MicroservicesWithDotNetCore\BandwithTester\bin\Debug\net5.0\Serilog.Sinks.RollingFile.dll

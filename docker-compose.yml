@@ -2,6 +2,28 @@
 version: '3.4'
 
 services:
+  bandwithtester.workerservice:
+    image: bandwithtester
+    build:
+      context: .
+      dockerfile: BandwithTester/Dockerfile
+
+  seq:
+    image: datalust/seq:latest
+    ports:
+      - "5341:80"
+    environment: 
+      ACCEPT_EULA: Y
+    restart: unless-stopped
+    volumes:
+      - ./seq-data:/data
+
+#    helloworld.workerservice:
+#    image: helloworldworkerserivce
+#    build:
+#      context: .
+#      dockerfile: HelloWorldWorkerService/Dockerfile
+
   # helloworld:
   #   image: helloworld
   #   build:
@@ -13,19 +35,3 @@ services:
   #   build:
   #     context: .
   #     dockerfile: SecondConsoleApp/Dockerfile
-
-  helloworld.workerservice:
-    image: helloworldworkerserivce
-    build:
-      context: .
-      dockerfile: HelloWorldWorkerService/Dockerfile
-
-  seq:
-    image: datalust/seq:latest
-    ports:
-      - "5341:80"
-    environment: 
-      ACCEPT_EULA: Y
-    restart: unless-stopped
-    volumes:
-      - ./seq-data:/data

@@ -15,7 +15,7 @@ namespace BandwithTester
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
                 .WriteTo.Console()
-                //.WriteTo.Seq("http://seq:5341")
+                .WriteTo.Seq("http://seq:5341")
                 .CreateLogger();
 
             try 
